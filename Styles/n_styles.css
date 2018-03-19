@@ -1,0 +1,37 @@
+.blog-new{
+	float:left;
+	margin:0 0 5px 5px;
+	text-indent:0;
+
+}
+.blog-image{
+	float:left;
+	margin:2px 5px 5px 0;
+}
+.item-title{
+	border-radius: 1px; 
+	background: #00CED1;
+	font-family:Arial,sans-serif;
+}
+.item-content{
+	border-radius: 1px;
+	background: #ADD8E6;
+	font-family:Arial,sans-serif;
+}
+.b1{
+	background: #3923A0;
+	float:left;
+	clear: both;
+	width: 75px;
+	height: 75px;
+}
+.b2{
+	background: #3923A0;
+	float:left;
+	width: 174px;
+	height: 75px;
+}
+	
+li{
+	display: block;
+}

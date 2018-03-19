@@ -1,0 +1,294 @@
+body{
+background: url(Images/background.png);
+clear: both;
+}
+
+#Contenedor{
+	width: 1000px;
+	background: transparent;
+	margin:0px;
+	margin:0 auto;
+	position:relative;
+	zoom:1;
+	background-color:#dcdee3
+}
+#Cabeza{
+	padding-bottom:1px;
+	background:#35558E;
+	height: 42px;
+}
+.logo{
+background: url("Images/1.png");
+width: 46px;
+height: 46px;
+margin:5px;
+}
+#texto-buscar{
+	float: left;
+	color:#141823;
+	font-size:14px;
+	-webkit-font-smoothing:antialiased;
+	height:20px;
+	line-height:18.6px;
+	padding-top:0;
+
+}
+.aleft{
+	float: left;
+}
+.text_area{
+	height: 145px;
+}
+.uiTextareaAutogrow{
+	height:100px;
+	width: 420px;
+	border-radius: 0px;
+	border:transparent; 
+}
+.Caja_comentario{
+	width: 400px;
+	height: 300px;
+}
+.publish_space{
+	width: 250px;
+}
+.publish_a{
+	background: white;
+	height: 30px;
+	width: 390px;
+	color: #35558E;
+}
+.publish_b{
+	background: #35558E;
+	height: 30px;
+	width: 100px;
+	border: transparent;
+	border-radius: 5px;
+	color:white;
+}
+.bInput{
+	margin: 10px;
+	color: white;
+}
+.reDesignedBtn{
+	background: url(Images/searchIcon.png);
+	height: 25px;
+	width: 25px;
+	border: transparent;
+	color:transparent;
+}
+
+#Cuerpo{
+	width: 1000px;
+	padding:0px;
+	margin-right:-1px;
+	outline:none;
+	padding-left:1px;
+	word-wrap:break-word
+}
+#Pie{
+	background:#35558E;	
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align: center;
+	padding:5px;
+	clear:both;
+
+}
+
+
+.Lefter{
+	height: 830px;
+	width: 190px;
+
+	clear:both;
+	padding:5px; /*pading es ->margen para adentro y margin es -> margin para afuera*/
+
+	float:left;
+	padding:20px 0 0 2px;
+	position:relative;
+	word-wrap:break-word
+}
+
+.Centers{
+	height: 830px;
+	width: 495px;
+	float: left;
+	padding:5px;
+	border-radius: 5px;
+}
+.Cajas{
+	border-radius: 1px;
+	background: white;
+	clear:both;
+}
+.Righter{
+	background:transparent;
+	height: 830px;
+	width: 270px;
+	float: left;
+	padding:15px;
+
+}
+.home{
+	background:url(Images/home.jpg);	
+	height: 38px;
+	width: 50px;
+	float: left;
+}
+.menu{
+	background:url(Images/menu.jpg)
+}
+.rightContainer{
+	background: white;
+	border-radius: 10px;
+}
+.Adds{
+
+	border-radius: 8px;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 20px;
+	color: #3B3B3B;
+	padding-top: 5px;
+	font-family:Arial,
+	sans-serif;
+}
+
+
+
+.a1{
+	background: #313A93;
+	clear:both;
+}
+.a2{
+	background: #5A695C;
+	clear:both;
+}
+.a3{
+	background: #5B65E1;
+	clear:both;
+}
+
+.u1{
+	background: #64487B;
+	float: left;
+	width:195px;
+	height: 115px;
+}
+.u2{
+
+	background: #64487B;
+	float: left;
+	width:195px;
+	height: 115px;
+}
+
+.t1{
+	background: #37B80C;
+	float: left;
+	width:130px;
+	height: 100px;
+}
+.t2{
+
+	background: #A39321;
+	float: left;
+	width:130px;
+	height: 100px;
+}
+.t3{
+	background: #0C0A30;
+	float: left;
+	width:130px;
+	height: 100px;
+}
+
+
+
+.menu{
+    list-style:none;
+	padding:0px;
+	margin:0px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+
+}
+.menu li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	position:relative;
+	font-family: arial;
+
+}
+.menu li a{
+	display: block;
+	width: 130px;
+	height: 24px;
+	padding: 6px;
+	line-height:30px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFF;
+	background-color: #35558E;
+	position: relative;
+
+ 
+}
+.menu li a:hover{
+	color:#CF3;
+	background-color:#35558E;
+}
+.menu ul{
+    position:absolute;
+	left:10px;
+	top:36px;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+	opacity:0;
+	transition:opacity .35s ease .2s;
+	-webkit-transition:opacity .35s ease .2s;
+	-moz-transition:opacity .35s ease .2s;
+	-o-transition:opacity .35s ease .2s;
+	visibility:hidden;	
+}
+.menu ul li a{
+	border-bottom:2px solid #333;
+	border-left:none;
+	display:block;
+	text-align:left;
+}
+.menu li:hover ul{
+    opacity:1;
+	visibility:visible;
+}
+
+
+
+.nav li a{
+	display: block;
+	width: auto;
+	height: 20px;
+	line-height:30px;
+	color: #000000;
+	background-color: transparent;
+
+	font-size: 15px;
+	color: #3B3B3B;
+	padding-top: 5px;
+	font-family:arial,
+	sans-serif;
+}
+.nav{
+    list-style:none;
+	padding:0px;
+	margin:0px;
+	font-size: 20px;
+	color: #3B3B3B;
+	padding-top: 5px;
+	font-family:Arial,
+}
+
